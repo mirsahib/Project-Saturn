@@ -132,27 +132,49 @@
         <div class="btn-toolbar mb-2 mb-md-0">
           <!--university-->
             <div class="btn-group btn-group-inline mr-2">
+              <!--
               <button class="btn btn-secondary btn-default dropdown-toggle" data-toggle="dropdown">Choose University Name
                 <span class="caret"></span>
               </button>
-              <ul class="dropdown-menu btn-block">
-                <li><a href="#">Reason 1</a></li>
-                <li><a href="#">Reason 2</a></li>
-                <li><a href="#">Reason 3</a></li>
+              <ul class="dropdown-menu btn-block" id="uniName">
+                <li><a href="#">Ahsanullah University of Science and Technology</a></li>
+                <li><a href="#">American Internation University of Bangladesh</a></li>
+                <li><a href="#">Brac University<a/></li>
+                <li><a href="#">Independent University of Bangladesh</a></li>
+                <li><a href="#">North South University</li></a>
               </ul>
+            -->
+            <select class="browser-default custom-select" id= "uniName">
+              <option value="Choose" selected >---Choose University---</option>
+              <option value="Ahsanullah University of Science and Technology">Ahsanullah University of Science and Technology</option>
+              <option value="American Internation University of Bangladesh">American Internation University of Bangladesh</option>
+              <option value="Brac University">Brac University</option>
+              <option value="North South University">North South University</option>
+            </select>
             </div>
             <!--year-->
             <div class="btn-group btn-group-inline mr-2">
+              <!--
               <button class="btn btn-secondary btn-default dropdown-toggle" data-toggle="dropdown">Year
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu btn-block">
-                <li><a href="#">Reason 5</a></li>
-                <li><a href="#">Reason 6</a></li>
-                <li><a href="#">Reason 7</a></li>
+                <li><a href="#">2017</a></li>
+                <li><a href="#">2016</a></li>
+                <li><a href="#">2015</a></li>
               </ul>
+            -->
+            <select class="browser-default custom-select" id="year">
+              <option selected="selected" value="select">--Select Year--</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>              
+              <option value="2015">2015</option>
+            </select>
             </div>
-     <!--end year-->       
+           <!--end year-->  
+           <div class="btn-group mr-2">
+             <button type="button" class="btn btn-primary" onclick="showData()">Show Data</button>
+           </div>
           <div class="btn-group mr-2">
             <button type="button" class="btn btn-sm btn-outline-secondary">Generate Report</button>
           </div>
@@ -161,7 +183,7 @@
       <!--- this where you will show data and chart--->
       <div>
         <h3>Student</h3>
-        <canvas class="my-4 w-100" id="" width="900" height="380"></canvas>
+        <canvas class="my-4 w-100" id="studentChart" width="900" height="380"></canvas>
       </div>
 
       </main>
