@@ -66,7 +66,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#student_distribution">
               <span data-feather="bar-chart"></span>
               Student Distribution
             </a>
@@ -147,8 +147,9 @@
             <select class="browser-default custom-select" id= "uniName">
               <option value="Choose" selected >---Choose University---</option>
               <option value="Ahsanullah University of Science and Technology">Ahsanullah University of Science and Technology</option>
-              <option value="American Internation University of Bangladesh">American Internation University of Bangladesh</option>
+              <option value="American International University Bangladesh">American International University Bangladesh</option>
               <option value="Brac University">Brac University</option>
+              <option value="Independent University Bangladesh">Independent University Bangladesh</option>
               <option value="North South University">North South University</option>
             </select>
             </div>
@@ -181,16 +182,26 @@
         </div>
       </div>
       <!--- this where you will show data and chart--->
-      <div>
-        <h3>Student</h3>
-        <canvas class="my-4 w-100" id="studentChart" width="900" height="380"></canvas>
+      <div id="student_distribution">
+        <h3>Student Demography</h3>
+        <div class="chart-container">
+          <div class="pie-chart-container">    
+            <canvas id="maleVsFemale" width="350" height="125"></canvas>
+          </div>
+          <div class="pie-chart-container">    
+            <canvas id="gradVsundergrad" width="350" height="125"></canvas>
+          </div>  
+          <div class="pie-chart-container">    
+            <canvas id="studentByDepartment" width="350" height="125"></canvas>
+          </div>                
+        </div>
       </div>
-
       </main>
     </div>
   </div>
   <script src="http://localhost/public_html/Final_project/js/jquery.min.js"></script>
-  <script src="http://localhost/public_html/Final_project/js/myScript.js"></script>
+  <script src="http://localhost/public_html/Final_project/js/student.js"></script>
+  <script src="http://localhost/public_html/Final_project/js/department.js" ></script>
   <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
   <script src="http://localhost/public_html/Final_project/js/feather.min.js"></script>
   <script src="http://localhost/public_html/Final_project/js/Chart.min.js"></script>

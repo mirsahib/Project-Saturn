@@ -150,4 +150,14 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
+.chart-container{
+  display: block;
+  width: 600px;
+  margin: 0px auto;
 
+}
+.pie-chart-container {
+  width: 350px;
+  height:125px;
+  float: left;
+}
