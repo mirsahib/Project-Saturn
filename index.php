@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Dashboard Template · Bootstrap</title>
+    <title>D·A·R·S</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/dashboard/">
+     <link rel="icon" href="http://localhost/public_html/Final_project/img/cover.png" type="image/png" sizes="16x16"> 
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
