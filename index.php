@@ -179,21 +179,15 @@
         <h3>Student Demography</h3>
         <div class="chart-container">
           <div class="pie-chart-container">    
-            <canvas id="maleVsFemale" width="350" height="125"></canvas>
-          </div>
-          <div class="pie-chart-container">    
-            <canvas id="gradVsundergrad" width="350" height="125"></canvas>
-          </div>  
-          <div class="pie-chart-container">    
             <canvas id="studentByDepartment" width="350" height="125"></canvas>
-          </div>                
+          </div>               
         </div>
       </div>
       </main>
     </div>
   </div>
   <script src="http://localhost/public_html/Final_project/js/jquery.min.js"></script>
-  <script src="http://localhost/public_html/Final_project/js/student.js"></script>
+  <script src="http://localhost/public_html/Final_project/js/myScript.js"></script>
   <script src="http://localhost/public_html/Final_project/js/department.js" ></script>
   <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
   <script src="http://localhost/public_html/Final_project/js/feather.min.js"></script>
