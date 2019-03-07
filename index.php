@@ -147,11 +147,6 @@
             -->
             <select class="browser-default custom-select" id= "uniName">
               <option value="Choose" selected >---Choose University---</option>
-              <option value="Ahsanullah University of Science and Technology">Ahsanullah University of Science and Technology</option>
-              <option value="American International University Bangladesh">American International University Bangladesh</option>
-              <option value="Brac University">Brac University</option>
-              <option value="Independent University Bangladesh">Independent University Bangladesh</option>
-              <option value="North South University">North South University</option>
             </select>
             </div>
             <!--year-->
@@ -168,16 +163,13 @@
             -->
             <select class="browser-default custom-select" id="year">
               <option selected="selected" value="select">--Select Year--</option>
-              <option value="2017">2017</option>
-              <option value="2016">2016</option>              
-              <option value="2015">2015</option>
             </select>
             </div>
            <!--end year-->  
            <div class="btn-group mr-2">
              <button type="button" class="btn btn-primary" onclick="showData()">Show Data</button>
            </div>
-          <div class="btn-group mr-2">
+          <div class="btn-group">
             <button type="button" class="btn btn-sm btn-outline-secondary">Generate Report</button>
           </div>
         </div>
