@@ -61,27 +61,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file"></span>
-              Enrollement Process Distribution
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#student_distribution">
               <span data-feather="bar-chart"></span>
               Student Distribution
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#faculty_distribution">
               <span data-feather="menu"></span>
               Faculty Distribution
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="bar-chart-2"></span>
-              Staff & Officer Distributioin
             </a>
           </li>
           <li class="nav-item">
@@ -180,7 +168,15 @@
         <div class="chart-container">
           <div class="pie-chart-container">    
             <canvas id="studentByDepartment" width="350" height="125"></canvas>
-          </div>               
+          </div>                        
+        </div>
+      </div>
+      <div id="faculty_distribution">
+        <h3>Faculty Demography</h3>
+        <div class="chart-container"> 
+          <div class="pie-chart-container">    
+            <canvas id="facultyByYear" width="350" height="125"></canvas>
+          </div>                        
         </div>
       </div>
       </main>
