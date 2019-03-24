@@ -9,10 +9,8 @@ Database connection.
     define('DB_PASSWORD', 'root');
     define('DB_NAME', 'UGC');
 ```
-<<<<<<< HEAD
 **Login Page**
 ![alt text](https://github.com/mirsahib/Project-Saturn/blob/master/img/login.png "Login Page")
 **Admin Page**
 ![alt text](https://github.com/mirsahib/Project-Saturn/blob/master/img/admin.png "Admin Page")
-=======
->>>>>>> test
+
